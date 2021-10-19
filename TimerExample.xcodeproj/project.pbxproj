@@ -56,15 +56,71 @@
 		F1B0965B271C9542005CFDE0 /* TimerExample */ = {
 			isa = PBXGroup;
 			children = (
-				F1B0965C271C9542005CFDE0 /* AppDelegate.swift */,
-				F1B0965E271C9542005CFDE0 /* SceneDelegate.swift */,
-				F1B09660271C9542005CFDE0 /* ViewController.swift */,
-				F1B09662271C9542005CFDE0 /* Main.storyboard */,
+				F1B09671271C9961005CFDE0 /* Resources */,
+				F1B09670271C9950005CFDE0 /* Sources */,
 				F1B09665271C9548005CFDE0 /* Assets.xcassets */,
-				F1B09667271C9548005CFDE0 /* LaunchScreen.storyboard */,
-				F1B0966A271C9548005CFDE0 /* Info.plist */,
 			);
 			path = TimerExample;
+			sourceTree = "<group>";
+		};
+		F1B09670271C9950005CFDE0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1B09672271C9976005CFDE0 /* App */,
+				F1B09673271C997F005CFDE0 /* Scene */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F1B09671271C9961005CFDE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1B09675271C99C9005CFDE0 /* Configs */,
+				F1B09674271C99B3005CFDE0 /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1B09672271C9976005CFDE0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F1B0965C271C9542005CFDE0 /* AppDelegate.swift */,
+				F1B0965E271C9542005CFDE0 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F1B09673271C997F005CFDE0 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F1B09676271C9A2C005CFDE0 /* Timer flow */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		F1B09674271C99B3005CFDE0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F1B09662271C9542005CFDE0 /* Main.storyboard */,
+				F1B09667271C9548005CFDE0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F1B09675271C99C9005CFDE0 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				F1B0966A271C9548005CFDE0 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		F1B09676271C9A2C005CFDE0 /* Timer flow */ = {
+			isa = PBXGroup;
+			children = (
+				F1B09660271C9542005CFDE0 /* ViewController.swift */,
+			);
+			path = "Timer flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AMBQU454ZC;
-				INFOPLIST_FILE = TimerExample/Info.plist;
+				INFOPLIST_FILE = TimerExample/Resources/Configs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AMBQU454ZC;
-				INFOPLIST_FILE = TimerExample/Info.plist;
+				INFOPLIST_FILE = TimerExample/Resources/Configs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
